@@ -18,5 +18,5 @@ node {
    //Deploy
    stage 'Deploy'
    //Run command to deploy war file
-   cp "C:\Program Files (x86)\Jenkins\workspace\ltiBranch-Project-01_master-FX5RWIHJXKRWE2Q5RD4WXRIALAY7VPYV5EA64ITWYET6Z4HVUL7Q\target\**.war" "D:\devops-tools\apache-tomcat-9.0.16-windows-x64\apache-tomcat-9.0.16\webapps"
+   bat 'copy "C:\\Program Files (x86)\\Jenkins\\workspace\\ltiBranch-Project-01_master-FX5RWIHJXKRWE2Q5RD4WXRIALAY7VPYV5EA64ITWYET6Z4HVUL7Q\\target\\*.war" "D:\\devops-tools\\apache-tomcat-9.0.16-windows-x64\\apache-tomcat-9.0.16\\webapps\\"'
 }
