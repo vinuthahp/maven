@@ -3,7 +3,7 @@ node {
    stage 'Checkout'
 
    // Checkout code from repository
-   checkout scm
+   checkout changelog: false, poll: false, scm: [$class: 'GitSCM', branches: [[name: '**']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[credentialsId: '8f2a8854-a62a-4778-be78-b18d2a60d7ea', url: 'https://github.com/selvajitheone/sim-maven-proj.git']]]
 
    // Get the maven tool.
    // ** NOTE: This 'M2' maven tool must be configured
