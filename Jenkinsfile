@@ -13,5 +13,5 @@ node {
    // Mark the code build 'stage'....
    stage 'Build'
    // Run the maven build
-   bat '%MVN_HOME%\\bin\\ mvn clean install'
+   bat '%MVN_HOME%\\ mvn clean install'
 }
