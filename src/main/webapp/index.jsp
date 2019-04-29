@@ -8,6 +8,10 @@
         <title>JSP Page</title>
     </head>
     <body>
+<<<<<<< HEAD
         <h1>Successfully war is deployed  in TomCat- Congrats !!!</h1>
+=======
+        <h1>Successfully war is deployed  in TomCat! Congrats!!!</h1>
+>>>>>>> 8ec6e49b5f92ce373a8618ae16c1e95e4fe57034
     </body>
 </html>
