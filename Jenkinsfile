@@ -18,6 +18,7 @@ node {
    //Deploy
    stage 'Deploy'
    //Run command to deploy war file
-   powershell 'remove-item "D:\\devops-tools\\apache-tomcat-9.0.16-windows-x64\\apache-tomcat-9.0.16\\webapps\\sim-mvn-proj-Master.war"'
-   powershell 'mv "C:\\Program Files (x86)\\Jenkins\\workspace\\*ltiBranch-Project-01_master-*\\target\\*.war" "D:\\devops-tools\\apache-tomcat-9.0.16-windows-x64\\apache-tomcat-9.0.16\\webapps\\sim-mvn-proj-Master.war"'
+   powershell 'remove-item "D:\\devops-tools\\apache-tomcat-9.0.16-windows-x64\\apache-tomcat-9.0.16\\webapps\\sim-mvn-proj-master.war"'
+   powershell 'mv "C:\\Program Files (x86)\\Jenkins\\workspace\\*ltiBranch-Project-01_master-*\\target\\*.war" "D:\\devops-tools\\apache-tomcat-9.0.16-windows-x64\\apache-tomcat-9.0.16\\webapps\\sim-mvn-proj-master.war"'
 }
+
