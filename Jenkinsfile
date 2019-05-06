@@ -27,3 +27,4 @@ node {
    powershell 'remove-item "D:\\devops-tools\\apache-tomcat-9.0.16-windows-x64\\apache-tomcat-9.0.16\\webapps\\sim-mvn-proj-test.war"'
    powershell 'mv "C:\\Program Files (x86)\\Jenkins\\workspace\\*ltiBranch-Project-01_test-*\\target\\*.war" "D:\\devops-tools\\apache-tomcat-9.0.16-windows-x64\\apache-tomcat-9.0.16\\webapps\\sim-mvn-proj-test.war"'
 }
+
