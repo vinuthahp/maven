@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: Mavenbuild
+  labels:
+    app: 
+spec:
+  selector:
+    matchLabels:
+      app: Mavenbuild
+  template:
+    metadata:
+      labels:
+        app: Mavenbuild
+    spec:
+      containers:
+      - image: lp00601139/Mavenbuild1
+        name: Mavenbuild
+        ports:
+        - containerPort: 8081
+          name: Mavenbuild
