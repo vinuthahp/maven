@@ -1,21 +1,22 @@
-apiVersion: apps/v1
+apiVersion: apps/v1 # for versions before 1.9.0 use apps/v1beta2
 kind: Deployment
 metadata:
-  name: Mavenbuild
+  name: my-app
   labels:
-    app: 
+    app: my-app
 spec:
   selector:
     matchLabels:
-      app: Mavenbuild
+      app: my-app
   template:
     metadata:
       labels:
-        app: Mavenbuild
+        app: my-app
     spec:
       containers:
       - image: vinutha25/Mavenbuild
-        name: Mavenbuild
+        name: my-app
         ports:
-        - containerPort: 8081
-          name: Mavenbuild
+        - containerPort: 8080
+          name: my-app
+
