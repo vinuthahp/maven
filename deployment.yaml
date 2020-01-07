@@ -14,7 +14,7 @@ spec:
         app: Mavenbuild
     spec:
       containers:
-      - image: vinutha25/Mavenbuild1
+      - image: vinutha25/Mavenbuild
         name: Mavenbuild
         ports:
         - containerPort: 8081
