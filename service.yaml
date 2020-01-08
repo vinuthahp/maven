@@ -5,7 +5,7 @@ metadata:
 spec:
   selector: 
     app: mavenbuild
-  type: NodePort  
+  type: LoadBalancer  
   ports:
     - port: 8080
       targetPort: 8092
